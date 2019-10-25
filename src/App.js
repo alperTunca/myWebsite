@@ -4,7 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import {
     BrowserRouter as Router,
-    Route
+    Route,
+    Switch
 } from "react-router-dom";
 import Home from "./pages/home";
 import Projects from "./pages/projects";
@@ -36,16 +37,17 @@ function App() {
                 </Navbar.Collapse>
             </Navbar>
             <Router>
-                <Route exact path="/">
-                    <Home/>
-                </Route>
-                <Route path="/projects">
-                    <Projects/>
-                </Route>
-                <Route path="/skills">
-                    <Skills/>
-                </Route>
-
+                <Switch>
+                    <Route exact path="/">
+                        <Home/>
+                    </Route>
+                    <Route path="/projects">
+                        <Projects/>
+                    </Route>
+                    <Route path="/skills">
+                        <Skills/>
+                    </Route>
+                </Switch>
             </Router>
         </div>
     );
