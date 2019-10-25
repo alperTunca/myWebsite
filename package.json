@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://alperTunca.github.io/personal-website",
+  "homepage": "https://alperTunca.github.io/personal-website",
   "dependencies": {
     "@material-ui/core": "latest",
     "bootstrap": "^4.3.1",

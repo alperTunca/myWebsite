@@ -31,9 +31,9 @@ class ProjectCard extends Component {
                     </Card.Header>
                     <Card.Body>
                         <Card.Img className="mb-1 col-xs-1 col-md-2" src={this.state.imgURL} style={{
-                            width : "110px", height: "100px", minWidth : "110px", align : "center", float : "left"}}/>
+                            width : "120px", height: "100px", minWidth : "120px", align : "center", float : "left"}}/>
                            <Card.Text className="ml-1"
-                                       style={{color: "#FFFFFF", textAlign: "left", overflow : ""}}>
+                                       style={{color: "#FFFFFF", textAlign: "left"}}>
                                 {this.state.info}
                             </Card.Text>
                     </Card.Body>
