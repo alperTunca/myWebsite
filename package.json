@@ -2,9 +2,11 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://alperTunca.github.io/personal-website",
   "dependencies": {
     "@material-ui/core": "latest",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "mdbreact": "^4.21.0",
     "prop-types": "latest",
     "react": "^16.10.2",
@@ -21,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
