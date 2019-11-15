@@ -74,11 +74,11 @@ class Home extends Component {
                     </h4>
                     <p style={{textAlign: "left"}}>
                         <span style={{color: "#34A4EB", fontSize: "20px", textAlign: "center"}}>
-                            I'm a student in electrical and electronics engineering. I am trying
-                            to prove myself by learning many programming languages. I participate
-                            in many events and competitions alone or with my team. <br/> <br/>
-                            I develop projects mostly with JavaScript using React, Node and with Java using Android.
-                            I also design basic circuit boards.
+                            I am an electrical and electronics engineering student. 
+                            I have been trying to improve myself on programming with various kind of programming languages.
+                            I participated in many events related to my field and competitions by alone or with a team. <br/> <br/>
+                            I developed projects mostly with JavaScript ES6  using React.js , Node.js and also Java for Android.
+                            I also have an experience on basic circuit board designs
                         </span>
                     </p>
                 </div>
