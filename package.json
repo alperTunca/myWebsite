@@ -6,7 +6,6 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "bootstrap": "^4.3.1",
-    "gh-pages": "^2.1.1",
     "mdbreact": "^4.21.0",
     "prop-types": "latest",
     "react": "^16.10.2",
@@ -41,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
