@@ -46,7 +46,7 @@ class Home extends Component {
                 </Helmet>
                 <div className="container content">
                     <Col>
-                        <Image className="mt-3 " src={'./profile-photo.jpg'} width="128px" roundedCircle/>
+                        <Image className="mt-3" src={'./profile-photo.jpg'} width="128px" roundedCircle/>
                     </Col>
                     <h2 style={{color: "#34A4EB", fontSize: "35px", fontWeight: "bold"}}>Alper Tunca</h2>
                     <h3 style={{color: "#FFFFFF", fontSize: "30px"}}>Engineer & Developer</h3>
@@ -78,7 +78,7 @@ class Home extends Component {
                             I have been trying to improve myself on programming with various kind of programming languages.
                             I participated in many events related to my field and competitions by alone or with a team. <br/> <br/>
                             I developed projects mostly with JavaScript ES6  using React.js , Node.js and also Java for Android.
-                            I also have an experience on basic circuit board designs
+                            I also have an experience on basic circuit board designs.
                         </span>
                     </p>
                 </div>
