@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import {
-    BrowserRouter as Router,
+    HashRouter,
     Route,
     Link
 } from "react-router-dom";
@@ -42,7 +42,7 @@ class App extends Component {
 
         return (
             <div className="App bg">
-                <Router basename="/">
+                <HashRouter basename="/">
                     <Navbar bg="dark" expand="lg">
                         <Link className="ml-2" to="/" style={{color: "#34A4EB", fontSize: "20px", effect : "true"}} onClick={this.toggleNavCondition.bind(this)} >Alper Tunca</Link>
 
@@ -82,7 +82,7 @@ class App extends Component {
                         <Skills/>
                     </Route>
                 */}
-                </Router>
+                </HashRouter>
             </div>
         );
 
