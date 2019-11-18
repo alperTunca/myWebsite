@@ -14,8 +14,7 @@ class Home extends Component {
         }
     }
 
-    getRandomColor() {
-        console.log(this.state.hiColor);
+    setRandomColor() {
         var letters = '0123456789ABCDEF';
         var color = '#';
         for (var i = 0; i < 6; i++) {
@@ -24,7 +23,8 @@ class Home extends Component {
         this.setState({
             hiColor: color
         });
-    };
+    }
+
 
     openInNewTab(url) {
         var win = window.open(url, '_blank');
@@ -49,7 +49,7 @@ class Home extends Component {
                         <Image className="mt-3" src={'./profile-photo.jpg'} width="128px" roundedCircle/>
                     </Col>
                     <h2 style={{color: "#34A4EB", fontSize: "35px", fontWeight: "bold"}}>Alper Tunca</h2>
-                    <h3 style={{color: "#FFFFFF", fontSize: "30px"}}>Engineer & Developer</h3>
+                    <h3 style={{color: "#cd0025", fontSize: "30px"}}>Engineer & Developer</h3>
                     <p>
                         <i className="fab fa-linkedin fa-2x mr-3" style={iStyle}
                            onClick={this.openInNewTab.bind(this, "https://www.linkedin.com/in/alper-tunca-419611173/")}/>
@@ -64,7 +64,7 @@ class Home extends Component {
                 <div className="container content">
                     <h4 style={{textAlign: "left"}}>
 
-                        <span onClick={this.getRandomColor.bind(this)}
+                        <span onClick={this.setRandomColor.bind(this)}
                               style={{
                                   color: this.state.hiColor || "#FFFFFF",
                                   fontWeight: "bold",
@@ -81,6 +81,7 @@ class Home extends Component {
                             I also have an experience on basic circuit board designs.
                         </span>
                     </p>
+
                 </div>
 
             </div>

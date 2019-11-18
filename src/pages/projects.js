@@ -36,25 +36,20 @@ class Projects extends Component {
                 <p style={{color: "#FFFFFF"}}>Some projects are here, You can open <a target="_blank"
                                                                                       rel="noopener noreferrer"
                                                                                       href="https://github.com/alperTunca?tab=repositories"
-                                                                                      style={{color: "#34A4EB"}}>github</a> for
-                    more</p>
-
+                                                                                      style={{color: "#34A4EB"}}>github</a> for more</p>
                     <ListGroup style={{alignItems : "center"}}>
-
                         <ProjectCard border="success" cardHeader="Robot Arm"
-                                     imgURL="./robot-arm.jpg" info={robotArmText}
+                                     imgURL="./projects-images/robot-arm.jpg" info={robotArmText}
                                      link="https://github.com/alperTunca/Robot-Arm"/>
 
                         <ProjectCard border="primary" cardHeader="Payload Circuit Code - Cansat 2019"
-                                     imgURL="./cansat-circuit.jpg" info={cansatText}
+                                     imgURL="./projects-images/cansat-circuit.jpg" info={cansatText}
                                      link="https://github.com/alperTunca/cansat-payload-embeded"/>
 
                         <ProjectCard border="warning" cardHeader="Personal Website"
-                                     imgURL="./react-icon.jpg" info={websiteText}
+                                     imgURL="./projects-images/react-icon.jpg" info={websiteText}
                                      link="https://github.com/alperTunca/myWebsite"/>
-
                     </ListGroup>
-
 
             </div>
         );
