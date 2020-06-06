@@ -54,7 +54,7 @@ class Home extends Component {
                         <i className="fab fa-linkedin fa-2x mr-3" style={iStyle}
                            onClick={this.openInNewTab.bind(this, "https://www.linkedin.com/in/alper-tunca-419611173/")}/>
                         <i className="fab fa-twitter-square fa-2x mr-3 " style={iStyle}
-                           onClick={this.openInNewTab.bind(this, "https://twitter.com/alpertuncaa")}/>
+                           onClick={this.openInNewTab.bind(this, "https://twitter.com/atuncaaa")}/>
                         <i className="fab fa-github-square fa-2x" style={iStyle}
                            onClick={this.openInNewTab.bind(this, "https://github.com/alperTunca")}/>
                     </p>
